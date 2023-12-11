@@ -1,0 +1,61 @@
+h1{
+  text-align: center;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.box{
+  border: 1px solid black;
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+.label{
+  text-align: left;
+}
+
+.inp{
+  width: 90%;
+  border-radius: 6px;
+  background-color:  rgb(50, 47, 47);
+  color: white;
+}
+
+.register{
+  padding: 10px;
+  width: 130px;
+  border-radius: 13px;
+  color: white;
+  background-color: rgb(50, 47, 47);
+}
+
+.errors{
+  color: rgb(255, 75, 75);
+}
+
+.success{
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
